@@ -6,6 +6,7 @@ import { Counter } from '../../store/modules/counter/counter';
 
 const Home = () => {
   const dispatch = useDispatch()
+  const username = "xxx"
 
   useEffect(() => {
     // dispatch(setTaskList(res))
